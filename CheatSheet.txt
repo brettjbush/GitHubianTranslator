@@ -1,0 +1,18 @@
+/** CODE BLOCK 1 **/
+translation = translation.toLowerCase();
+/** CODE BLOCK 2 **/
+translation = translation.replaceAll("\\.", "!");
+/** CODE BLOCK 3 **/
+translation = translation.replaceAll("a", "4");
+/** CODE BLOCK 4 **/
+translation = translation.replaceAll("e", "3");
+/** CODE BLOCK 5 **/
+translation = translation.replaceAll("i", "1");
+/** CODE BLOCK 6 **/
+translation = translation.replaceAll("o", "0");
+/** CODE BLOCK 7 **/
+translation = translation.replaceAll("s", "5");
+/** CODE BLOCK 8 **/
+translation = translation.replaceAll("t", "7");
+/** CODE BLOCK 9 **/
+translation = translation.replaceAll("z", "2");
