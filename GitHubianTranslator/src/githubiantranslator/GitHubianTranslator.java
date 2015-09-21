@@ -93,7 +93,7 @@ public class GitHubianTranslator {
         tokenizer.forEachRemaining(token ->
         {
             // If "it" is its own word (or next to a series of punctuation)
-            if(token.matches("(\\b|\\p{Punct}+)it(\\b|\\p{Punct}+)"))
+            if(token.matches("(\\b|\\p{Punct}+)(it|its|it's)(\\b|\\p{Punct}+)"))
             {
                 token = token.replace("it", "git");
             }
