@@ -75,8 +75,6 @@ public class GitHubianTranslator {
         
         /** CODE BLOCK 1 **/
         
-        translation = translation.toLowerCase();
-        
         return translation;
     }
     
@@ -125,7 +123,6 @@ public class GitHubianTranslator {
         // as "\\." due to regular expressions
         
         /** CODE BLOCK 2 **/
-        translation = translation.replaceAll("\\.", "!");
         
         return translation;
     }
@@ -146,10 +143,6 @@ public class GitHubianTranslator {
         // o => 0
         
         /** CODE BLOCK 3 - 6 **/
-        translation = translation.replaceAll("a", "4");
-        translation = translation.replaceAll("e", "3");
-        translation = translation.replaceAll("i", "1");
-        translation = translation.replaceAll("o", "0");
         
         // TODO replace the following consonants accordingly
         // s => 5
@@ -157,9 +150,6 @@ public class GitHubianTranslator {
         // z => 2
         
         /** CODE BLOCK 7 - 9 **/
-        translation = translation.replaceAll("s", "5");
-        translation = translation.replaceAll("t", "7");
-        translation = translation.replaceAll("z", "2");
         
         return translation;
     }
